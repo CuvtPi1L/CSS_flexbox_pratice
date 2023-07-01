@@ -1,0 +1,63 @@
+* { 
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+h1{
+    color: magenta;
+    position: center;
+    text-align: center;
+}
+
+p{
+    color: mintcream;
+    text-align: center;
+}
+
+div.container{
+    gap: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section{ 
+    border-style: dashed;
+    border-width: 1px;
+    padding:20px;
+    width: 27%;
+    border-color:aliceblue
+}
+
+div.container section div.card_header{
+    background-color: black;
+    position: relative;
+    margin-top: -12%;
+}
+div.container section div.card_header h1{
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+section p, section code{
+    color: mintcream;
+    text-align: center;f
+}
+
+div.container section div.linear_gradient_background{
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(232,102,236,0.3) 0%,
+         rgba(232,102,236,0.6) 100%
+    );
+}
+footer{
+    text-align: center;
+    color:aliceblue;
+}
